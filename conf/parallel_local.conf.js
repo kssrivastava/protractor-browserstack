@@ -5,11 +5,12 @@ exports.config = {
   'seleniumAddress': 'http://hub-cloud.browserstack.com/wd/hub',
 
   'commonCapabilities': {
-    'browserstack.user': process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
-    'browserstack.key': process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
+    'browserstack.user': process.env.BROWSERSTACK_USERNAME || 'khushboossrivast1',
+    'browserstack.key': process.env.BROWSERSTACK_ACCESS_KEY || 'DgZxZqGzSwCHPg31yEs4',
     'build': 'protractor-browserstack',
     'name': 'parallel_local_test',
     'browserstack.local': true,
+    'browserstack.networkLogs':'true',
     'browserstack.debug': 'true'
   },
 
@@ -18,7 +19,9 @@ exports.config = {
   },{
     'browserName': 'Firefox'
   },{
-    'browserName': 'Safari'
+     'os': 'OS X',
+     'os_version': 'Sierra',
+     'browserName': 'Safari'
   }],
 
   // Code to start browserstack local before start of test

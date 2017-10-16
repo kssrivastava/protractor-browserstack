@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">PRP E2E Test Report1</h1>
+          <h3 class="report-date">Friday, October 13 2017, 06:26pm</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">6.511<span>S</span></li>
+                <li class="qs-item summary-suites" title="Suites">1</li>
+                <li class="qs-item summary-tests" title="Tests">1</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">1</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">6.511<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Suite</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Test</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">100% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="6037fa06-4936-4d02-b9f0-f0feb05f4ccd" class="suite has-tests has-passed">
+            <h3 class="suite-title">Using rest api</h3>
+            <h5 class="suite-filename">\specs\restAPICall.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="6037fa06-4936-4d02-b9f0-f0feb05f4ccd" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">6.498 s</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#6037fa06-4936-4d02-b9f0-f0feb05f4ccd-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="6037fa06-4936-4d02-b9f0-f0feb05f4ccd-test-list" class="list-group test-list collapse in">
+                    <div id="fa8660d0-6c12-4448-8e46-66836fa53702" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Getting test data from rest service
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#fa8660d0-6c12-4448-8e46-66836fa53702 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#fa8660d0-6c12-4448-8e46-66836fa53702 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">6.498 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#fa8660d0-6c12-4448-8e46-66836fa53702 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">browser.get(<span class="hljs-string">"http://angularjs.org"</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br>    <span class="hljs-keyword">var</span> weather = <span class="hljs-keyword">new</span> YahooWeather();<br>    <span class="hljs-comment">//Gets weather</span><br>    weather.getCityWeather().then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">result</span>) </span>{<br>        <span class="hljs-comment">// Enter text under Name input field</span><br>        element(by.model(<span class="hljs-string">'yourName'</span>)).sendKeys(result).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br>            <span class="hljs-comment">//Getting welcome text</span><br>            expect(element(by.binding(<span class="hljs-string">'yourName'</span>)).getText()).to.eventually.equal(<span class="hljs-string">'Hello India!'</span>);<br>            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Result is :"</span>+ result)<br>        });<br>    });<br>});<br><span class="hljs-comment">//To see the text typed in the TODO field. Not Mandatory</span><br>browser.sleep(<span class="hljs-number">5000</span>);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/2181_using_rest_api_getting_test_data_from_rest_service.png"></code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2017.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#6037fa06-4936-4d02-b9f0-f0feb05f4ccd" class="nav-menu-item-link has-passes">Using rest api</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>

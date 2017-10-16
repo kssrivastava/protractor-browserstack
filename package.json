@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm run single && npm run local && npm run parallel",
     "single": "./node_modules/.bin/protractor conf/single.conf.js",
-    "local": "./node_modules/.bin/protractor conf/local.conf.js",
+    "local": "protractor conf/local.conf.js",
+    "login": "./node_modules/.bin/protractor conf/login.conf.js",
     "parallel": "./node_modules/.bin/protractor conf/parallel.conf.js",
     "parallel_local": "./node_modules/.bin/protractor conf/parallel_local.conf.js"
   },
@@ -16,7 +17,12 @@
   },
   "dependencies": {
     "browserstack-local": "^1.0.0",
-    "protractor": "^2.5.1"
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mochawesome-screenshots": "^1.5.3",
+    "protractor": "^2.5.1",
+    "request": "^2.83.0",
+    "restler": "^3.4.0"
   },
   "license": "MIT"
 }

@@ -1,0 +1,19 @@
+{
+ "tc01":  
+ [
+    {"UserName": "admin121", "Password": "admin121"},
+    {"UserName": "admin11",  "Password": "admin22"}
+ ],
+ "tc02":  
+ [
+    {"UserName": "admin12121", "Password": "admin121"}
+ ],
+ "tc03":  
+ [
+    {"UserName": "auto_Admin_withData@qeroofingsupplies.com", "Password": "test@1234", "searchText": "Search This"}
+ ],
+ "tc04":  
+ [
+    {"UserName": "Khushboo.Srivastava@construction.com", "Password": "Admin@123"}
+ ]
+}
